@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Open+Sans&family=Poppins:wght@200;400;600&display=swap');
+body{
+    background-color: hsl(210, 46%, 95%);
+}
+
+.mainimg{
+    width: 17rem;
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+
+}
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content:right;
+    background-color: white;
+    border-radius: 10px;
+    height: 28rem;
+    width: 17rem;
+    margin-top: 2.5rem;
+    font-family: 'Manrope';
+}
+.texte{
+    margin-top: 1.5rem;
+    font-weight: 700;
+    font-size:15px;
+    margin-left: 0.5rem;
+    color: #4f5665;
+}
+
+.texte2{
+    margin-top: 0.7rem;
+    margin-left: 0.5rem;
+    font-size: 12.5px;
+    color: #4f5665;
+}
+
+.logo{
+    width:40px;
+    border-radius: 50%;
+}
+.contain{
+    margin-top:-0.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.mini{
+    margin-bottom: 1rem;
+}
+.mini p{
+margin: 0;
+font-size:12px ;
+margin-left: 1rem;
+color: #4f5665;
+}
+
+.mini p:first-child{
+    margin-top: 1.3rem;
+    margin-bottom: 0.2rem;
+}
+
+.soft{
+    font-weight:200;
+}
+.share{
+    width: 18px;
+    border-radius: 50%;
+    padding: 0.5rem;
+    background-color: hsl(210, 46%, 95%);
+    margin-left: 2rem;
+}
+.contain1{
+    margin-top:-3.5rem;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #49556b;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    position: relative;
+
+    
+}
+.contain1 p{
+    color: gray;
+    letter-spacing: 0.3rem;
+    margin-left: -2.rem;
+    
+}
+
+i{
+    color: white ;
+    font-size: 20px;
+    margin-left: 0.5rem;
+}
+
+.contain1 .share2{
+    
+    color: white;
+    margin-left: 3rem;
+}
+
+@media (min-width: 600px) {
+    /* styles for viewports with a width of 600px or more */
+.wrap{
+    width: 40rem;
+    height: 17rem;
+    display: flex;
+    flex-direction: row;
+}
+.mainimg{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.wrap1{
+    margin-left: 1rem;
+}
+.texte{
+    font-size: 19.5px;
+}
+.texte2{
+font-size: 13px;
+}
+.mini{
+    margin-right: 4.5rem;
+}
+#contain{
+    margin-top: 1.5rem;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+}
+#contain1{
+    margin-bottom: 2rem;
+    width: 14rem;
+    height: 3rem;
+    border-radius: 7px;
+    right: -13rem;
+    top: -4rem;
+}
+
+.share2{
+    display: none;
+}
+.contain1:before {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 40%;
+    margin-left: -10px; /* adjust this value to change the size of the triangle */
+    border-width: 20px 20px 0; /* adjust the values to change the size of the triangle */
+    border-style: solid;
+    border-color: #49556b transparent; /* change the color value to change the color of the triangle */
+}  
+}
+
+@media (max-width: 600px){
+    .mainimg{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+}
+
+
